@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message ControlRequest {
+  required int32 linear_velocity = 1;
+  required int32 velocity_offset_angle = 2;
+  required int32 angular_velocity = 3;
+}
